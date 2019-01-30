@@ -1,0 +1,555 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>03-Komut Satırı (Kabuk) ve Temel Komutlar · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="04_kabuk_ve_ozellikleri.html" />
+    
+    
+    <link rel="prev" href="02_gnu_linux_isletim_sisteminin_yapisi.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Giriş
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01_ozgur_yazilim_felsefesi_ve_temel_kavramlar.html">
+            
+                <a href="01_ozgur_yazilim_felsefesi_ve_temel_kavramlar.html">
+            
+                    
+                    01-Özgür Yazılım Felsefesi ve Temel Kavramlar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="02_gnu_linux_isletim_sisteminin_yapisi.html">
+            
+                <a href="02_gnu_linux_isletim_sisteminin_yapisi.html">
+            
+                    
+                    02-GNU/Linux İşletim Sisteminin Yapısı
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="03_komut_satiri_ve_temel_kavramlar.html">
+            
+                <a href="03_komut_satiri_ve_temel_kavramlar.html">
+            
+                    
+                    03-Komut Satırı (Kabuk) ve Temel Komutlar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="04_kabuk_ve_ozellikleri.html">
+            
+                <a href="04_kabuk_ve_ozellikleri.html">
+            
+                    
+                    04-Kabuk ve Özellikleri
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="05_kullanici_ve_grup_yonetimi.html">
+            
+                <a href="05_kullanici_ve_grup_yonetimi.html">
+            
+                    
+                    05-Kullanıcı ve Grup Yönetimi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="06_paket_yonetim_sistemi.html">
+            
+                <a href="06_paket_yonetim_sistemi.html">
+            
+                    
+                    06-Paket Yönetim Sistemi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="07_surecler_ve_servisler.html">
+            
+                <a href="07_surecler_ve_servisler.html">
+            
+                    
+                    07-Süreçler ve Servisler
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="08_sistem_kayitlari.html">
+            
+                <a href="08_sistem_kayitlari.html">
+            
+                    
+                    08-Sistem Kayıtları
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="09_depolama_aygitlarinin_yonetimi.html">
+            
+                <a href="09_depolama_aygitlarinin_yonetimi.html">
+            
+                    
+                    09-Depolama Aygıtlarının Yönetimi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="10_zamanlanmis_gorevler.html">
+            
+                <a href="10_zamanlanmis_gorevler.html">
+            
+                    
+                    10-Zamanlanmış Görevler
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="11_tcp_ip_bilgisi_ve_ag_yonetimi.html">
+            
+                <a href="11_tcp_ip_bilgisi_ve_ag_yonetimi.html">
+            
+                    
+                    11-Temel TCP/IP Bilgisi ve Ağ Yönetimi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="12_dns_teknolojisine_giris.html">
+            
+                <a href="12_dns_teknolojisine_giris.html">
+            
+                    
+                    12-DNS Teknolojisine Giriş
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="13_guvenli_uzaktan_erisim.html">
+            
+                <a href="13_guvenli_uzaktan_erisim.html">
+            
+                    
+                    13-Güvenli Uzaktan Erişim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="14_yedekleme_arsivleme_ve_sikistirma.html">
+            
+                <a href="14_yedekleme_arsivleme_ve_sikistirma.html">
+            
+                    
+                    14-Yedekleme, Arşivleme ve Sıkıştırma
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="15_web_teknolojisine_giris.html">
+            
+                <a href="15_web_teknolojisine_giris.html">
+            
+                    
+                    15-Web Teknolojisisne Giriş
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="16_veritabani_servisine_giris.html">
+            
+                <a href="16_veritabani_servisine_giris.html">
+            
+                    
+                    16-Veritanaı Servislerine Giriş
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="17_apache_php_mysql_kurulumu.html">
+            
+                <a href="17_apache_php_mysql_kurulumu.html">
+            
+                    
+                    17-Apache/PHP/MySQL Kurulumu ve Örnek Uygulama
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="18_bash_betik_yazimina_giris.html">
+            
+                <a href="18_bash_betik_yazimina_giris.html">
+            
+                    
+                    18-Bash Betik (Script) Yazımına Giriş
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >03-Komut Satırı (Kabuk) ve Temel Komutlar</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="komut-sat&#x131;r&#x131;-kabuk-ve-temel-komutlar">Komut Sat&#x131;r&#x131; (Kabuk) ve Temel Komutlar</h1>
+<ul>
+<li><strong>komut 1&gt;log.txt 2&gt;hatalog.txt:</strong> komutun &#xE7;&#x131;kt&#x131; loglar&#x131; log.txt, hatal&#x131; &#xE7;&#x131;kt&#x131;lar&#x131; hatalog.txt ye yazd&#x131;r&#x131;r.</li>
+<li><strong>sudo su:</strong> Root kullan&#x131;s&#x131;na ge&#xE7;me. <strong>exit</strong> komutu ile root kullan&#x131;c&#x131;s&#x131;ndan &#xE7;&#x131;k&#x131;l&#x131;r.</li>
+<li><strong>curl:</strong>ba&#x11F;lant&#x131;y&#x131; terminalde g&#xF6;sterir.</li>
+<li><strong>wget:</strong>ba&#x11F;lant&#x131;y&#x131; indirir.</li>
+<li><strong>zip:</strong> zipleme komutu <strong>unzip</strong> dosyay&#x131; &#xE7;&#x131;kar&#x131;r.</li>
+<li><strong>du:</strong> (disk usage)</li>
+<li><strong>sort</strong></li>
+<li><strong>tail</strong></li>
+<li><strong>head</strong></li>
+<li><strong>more</strong></li>
+<li><strong>less</strong></li>
+<li><strong>script:</strong> Terminalde yaz&#x131;lanlar&#x131; dosyaya kaydeder.</li>
+<li><strong>wc:</strong> (word count)</li>
+<li><strong>which:</strong> Program&#x131;n konumunu g&#xF6;sterir.</li>
+<li><strong>whereis:</strong> Program&#x131;n binary, source ve manual dosyalar&#x131;n&#x131;n konumlar&#x131;n&#x131; g&#xF6;sterir.</li>
+<li><strong>&amp;&amp;:</strong> AND [ -a ]</li>
+<li><strong>||:</strong> OR [ -o ]</li>
+<li><strong>df:</strong> (disk free)  Ba&#x11F;l&#x131; diskleri g&#xF6;sterir.</li>
+<li><strong>w:</strong> Kullan&#x131;c&#x131; hakk&#x131;nda ayr&#x131;nt&#x131;l&#x131; bilgi verir.</li>
+<li><strong>who:</strong> Kullan&#x131;c&#x131; hakk&#x131;nda bilgi verir.</li>
+<li><strong>last:</strong> Son sisteme giri&#x15F; kay&#x131;tlar&#x131;n&#x131; g&#xF6;r&#xFC;nt&#xFC;ler.</li>
+</ul>
+<ul>
+<li><strong>/dev/null:</strong> Buraya g&#xF6;nderilen dosya ya da &#xE7;&#x131;kt&#x131;lar silinir.</li>
+<li><strong>/dev/zero:</strong> Sonsuz say&#x131;da 0&apos;lar olu&#x15F;turabilen dizin.</li>
+</ul>
+<h2 id="&#xE7;&#x131;kt&#x131;dan-s&#xFC;tun-sat&#x131;r-se&#xE7;me">&#xC7;&#x131;kt&#x131;dan S&#xFC;tun-Sat&#x131;r Se&#xE7;me</h2>
+<p>Ay&#x131;r&#x131;c&#x131; varsa <strong>cut</strong>, bo&#x15F;luklar varsa <strong>awk</strong> komutu kullan&#x131;l&#x131;r.</p>
+<pre><code>awk &apos;{print $[s&#xFC;tun say&#x131;s&#x131;]}&apos;**
+</code></pre><p>ls -l /home/near/ | awk &apos;{print $1}&apos;</p>
+<pre><code>cut [dosya] | -d&quot;[ay&#x131;r&#x131;c&#x131;]&quot; -f[s&#xFC;tun]
+</code></pre><p>cut etc/passwd | cut -d&quot;:&quot; -f1-3,6</p>
+<ul>
+<li><p><strong>-f:</strong> field</p>
+</li>
+<li><p><strong>uniq:</strong> &#xC7;&#x131;kt&#x131;da ayn&#x131; sat&#x131;rlardan sadece birer tanesini g&#xF6;sterir.</p>
+</li>
+</ul>
+<hr>
+<p>sed: &#xC7;&#x131;kt&#x131;dan sat&#x131;r se&#xE7;mek i&#xE7;in kullan&#x131;l&#x131;r.</p>
+<p>Dosyadan 3. sat&#x131;r&#x131; se&#xE7;mek i&#xE7;in;</p>
+<pre><code>sed -n 3p dosya.txt
+</code></pre><p>Dosyadan &apos;abc&apos; ge&#xE7;en b&#xFC;t&#xFC;n sat&#x131;rlar&#x131; se&#xE7;mek i&#xE7;in; </p>
+<pre><code>sed -n &apos;/abc/p&apos; dosya.txt
+</code></pre><h3 id="yard&#x131;mc&#x131;-komutlar">Yard&#x131;mc&#x131; Komutlar</h3>
+<ul>
+<li><strong>nl:</strong> &#xC7;&#x131;kt&#x131;da her sat&#x131;r&#x131; numaraland&#x131;r&#x131;r.</li>
+</ul>
+<hr>
+<ul>
+<li><strong>grep:</strong> Dosyadan arnan karakterleri getirir.</li>
+</ul>
+<pre><code>grep -Rin &quot;[aranacak karakterler]&quot; [dizin-dosya 1] [dizin-dosya 2]
+</code></pre><ul>
+<li>-v: invert matches (&#xE7;&#x131;kt&#x131;dan belli sat&#x131;r&#x131; &#xE7;&#x131;karmak i&#xE7;in kullan&#x131;labilir.)</li>
+<li>R (recursive): Dizinleri de aramaya katar.</li>
+<li>i (ignore case) : K&#xFC;&#xE7;&#xFC;k b&#xFC;y&#xFC;k harfe dikkat etmez. </li>
+<li>n (line number)</li>
+</ul>
+<hr>
+<ul>
+<li><strong>find:</strong> Dosya &#xF6;zelliklerine g&#xF6;re arama yapar. &#xC7;&#x131;kt&#x131; olarak sadece dosya isimlerini getirir.</li>
+</ul>
+<pre><code>$ find [aranacak_dizin] -name [] -type []
+</code></pre><ul>
+<li>iname: igonre case</li>
+</ul>
+<p>access modify change de&#x11F;erlerini g&#xF6;r&#xFC;nt&#xFC;leme ve bu de&#x11F;erle g&#xF6;re arama yapma;</p>
+<pre><code>stat [dosya]
+</code></pre><pre><code>$ find -(amc)min -[sayi] [dizin]
+</code></pre><pre><code>$ find -(amc)time +[sayi] -(amc)time -[sayi] [dizin]
+</code></pre><p>find ile istenilen dosyalar bulunduktan sonra <em>-exec</em> parametresi girilir, find ile bulunan dosyalar yerine &apos;{}&apos; yaz&#x131;l&#x131;r ve \; ile komut kapan&#x131;r.</p>
+<pre><code>$ find ... -exec ... [komut] &apos;{}&apos; \;
+</code></pre><p>home daki txt uzant&#x131;l&#x131; dosyalar&#x131; /tmp/yedek/ dizinine kopyalama;</p>
+<pre><code>$ find /home/near/ -iname &quot;*.txt&quot; 2&gt;/dev/null -exec cp -v &apos;{}&apos;  /tmp/yedek/ \;
+</code></pre><hr>
+<pre><code>$ locate a.txt
+&gt;...a.txt
+&gt;...sirala.txt
+&gt;...yaka.txt
+</code></pre><hr>
+<p>Dosya ararken ya da listelerken kullan&#x131;labilir. (Wildcards)</p>
+<ul>
+<li>?: 1 karakterlik</li>
+<li>*: karakter s&#x131;n&#x131;r&#x131; yok</li>
+</ul>
+<hr>
+<p>rm -rf /home/deneme</p>
+<p>rm /home/deneme -rf</p>
+<p>(alttaki daha g&#xFC;venli, dizin yazarken yanl&#x131;&#x15F;l&#x131;kla bo&#x15F;luk b&#x131;rak&#x131;lmas&#x131; durunda bir g&#xFC;venlik &#xF6;nlemi daha ekler.)</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="02_gnu_linux_isletim_sisteminin_yapisi.html" class="navigation navigation-prev " aria-label="Previous page: 02-GNU/Linux İşletim Sisteminin Yapısı">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="04_kabuk_ve_ozellikleri.html" class="navigation navigation-next " aria-label="Next page: 04-Kabuk ve Özellikleri">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"03-Komut Satırı (Kabuk) ve Temel Komutlar","level":"1.4","depth":1,"next":{"title":"04-Kabuk ve Özellikleri","level":"1.5","depth":1,"path":"04_kabuk_ve_ozellikleri.md","ref":"04_kabuk_ve_ozellikleri.md","articles":[]},"previous":{"title":"02-GNU/Linux İşletim Sisteminin Yapısı","level":"1.3","depth":1,"path":"02_gnu_linux_isletim_sisteminin_yapisi.md","ref":"02_gnu_linux_isletim_sisteminin_yapisi.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"03_komut_satiri_ve_temel_kavramlar.md","mtime":"2018-08-07T10:43:26.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-30T20:27:21.456Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

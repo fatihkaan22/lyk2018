@@ -1,0 +1,591 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>07-Süreçler ve Servisler · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="08_sistem_kayitlari.html" />
+    
+    
+    <link rel="prev" href="06_paket_yonetim_sistemi.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Giriş
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01_ozgur_yazilim_felsefesi_ve_temel_kavramlar.html">
+            
+                <a href="01_ozgur_yazilim_felsefesi_ve_temel_kavramlar.html">
+            
+                    
+                    01-Özgür Yazılım Felsefesi ve Temel Kavramlar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="02_gnu_linux_isletim_sisteminin_yapisi.html">
+            
+                <a href="02_gnu_linux_isletim_sisteminin_yapisi.html">
+            
+                    
+                    02-GNU/Linux İşletim Sisteminin Yapısı
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="03_komut_satiri_ve_temel_kavramlar.html">
+            
+                <a href="03_komut_satiri_ve_temel_kavramlar.html">
+            
+                    
+                    03-Komut Satırı (Kabuk) ve Temel Komutlar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="04_kabuk_ve_ozellikleri.html">
+            
+                <a href="04_kabuk_ve_ozellikleri.html">
+            
+                    
+                    04-Kabuk ve Özellikleri
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="05_kullanici_ve_grup_yonetimi.html">
+            
+                <a href="05_kullanici_ve_grup_yonetimi.html">
+            
+                    
+                    05-Kullanıcı ve Grup Yönetimi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="06_paket_yonetim_sistemi.html">
+            
+                <a href="06_paket_yonetim_sistemi.html">
+            
+                    
+                    06-Paket Yönetim Sistemi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="07_surecler_ve_servisler.html">
+            
+                <a href="07_surecler_ve_servisler.html">
+            
+                    
+                    07-Süreçler ve Servisler
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="08_sistem_kayitlari.html">
+            
+                <a href="08_sistem_kayitlari.html">
+            
+                    
+                    08-Sistem Kayıtları
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="09_depolama_aygitlarinin_yonetimi.html">
+            
+                <a href="09_depolama_aygitlarinin_yonetimi.html">
+            
+                    
+                    09-Depolama Aygıtlarının Yönetimi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="10_zamanlanmis_gorevler.html">
+            
+                <a href="10_zamanlanmis_gorevler.html">
+            
+                    
+                    10-Zamanlanmış Görevler
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="11_tcp_ip_bilgisi_ve_ag_yonetimi.html">
+            
+                <a href="11_tcp_ip_bilgisi_ve_ag_yonetimi.html">
+            
+                    
+                    11-Temel TCP/IP Bilgisi ve Ağ Yönetimi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="12_dns_teknolojisine_giris.html">
+            
+                <a href="12_dns_teknolojisine_giris.html">
+            
+                    
+                    12-DNS Teknolojisine Giriş
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="13_guvenli_uzaktan_erisim.html">
+            
+                <a href="13_guvenli_uzaktan_erisim.html">
+            
+                    
+                    13-Güvenli Uzaktan Erişim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="14_yedekleme_arsivleme_ve_sikistirma.html">
+            
+                <a href="14_yedekleme_arsivleme_ve_sikistirma.html">
+            
+                    
+                    14-Yedekleme, Arşivleme ve Sıkıştırma
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="15_web_teknolojisine_giris.html">
+            
+                <a href="15_web_teknolojisine_giris.html">
+            
+                    
+                    15-Web Teknolojisisne Giriş
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="16_veritabani_servisine_giris.html">
+            
+                <a href="16_veritabani_servisine_giris.html">
+            
+                    
+                    16-Veritanaı Servislerine Giriş
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="17_apache_php_mysql_kurulumu.html">
+            
+                <a href="17_apache_php_mysql_kurulumu.html">
+            
+                    
+                    17-Apache/PHP/MySQL Kurulumu ve Örnek Uygulama
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="18_bash_betik_yazimina_giris.html">
+            
+                <a href="18_bash_betik_yazimina_giris.html">
+            
+                    
+                    18-Bash Betik (Script) Yazımına Giriş
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >07-Süreçler ve Servisler</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="servis-y&#xF6;netimi">Servis Y&#xF6;netimi</h1>
+<p>SysV: Kernel y&#xFC;klendikten sonra init ba&#x15F;lar. Init belli scriptleri &#xE7;al&#x131;&#x15F;t&#x131;rarak s&#x131;rayla sitem servislerini ba&#x15F;lat&#x131;r.</p>
+<pre><code>$ chkconfig
+$ service
+</code></pre><p>Systemd: Servisler paralel olarak ba&#x15F;lat&#x131;labilir. Sadece talep edilen servisler ba&#x15F;lat&#x131;labilir.</p>
+<p>d: deamon (arkada &#xE7;al&#x131;&#x15F;an)</p>
+<p>/usr/lib/systemd/system: RPM ile gelen dosyalar</p>
+<p>/run/systemd/system/: &#xE7;al&#x131;&#x15F;an dosyalar </p>
+<p>/etc/system.d/system/: kullan&#x131;c&#x131; tan&#x131;ml&#x131;</p>
+<pre><code>$ systemctl
+</code></pre><hr>
+<table>
+<thead>
+<tr>
+<th>SysV</th>
+<th>Systemd</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>init0: halt (shutdown -h)</td>
+<td>poweroff.target</td>
+</tr>
+<tr>
+<td>init1: single</td>
+<td>rescue.target</td>
+</tr>
+<tr>
+<td>init2: multi/terminal</td>
+<td>multiuser.target</td>
+</tr>
+<tr>
+<td>init3: multi-user with networking</td>
+<td>multiuser.target</td>
+</tr>
+<tr>
+<td>init4: undefined</td>
+<td></td>
+</tr>
+<tr>
+<td>init5: X11</td>
+<td>graphical.target</td>
+</tr>
+<tr>
+<td>init6: reboot (shutdown -r)</td>
+<td>reboot.target</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Uzak sunucu <em>init1 single mod (troubleshooting modu burada ba&#x15F;lar)</em> ile ba&#x15F;lat&#x131;l&#x131;rsa baz&#x131; servisler &#xE7;al&#x131;&#x15F;mayaca&#x11F;&#x131;ndan ba&#x11F;lant&#x131; kopar.</li>
+</ul>
+<pre><code>$ systemctl (start-stop-status) service
+
+$ systemctl list-units --type target
+
+$ systemctl get-default
+
+$ systemctl is-enabled
+
+$ systemctl isolate poweroff.target
+</code></pre><p>Guvenlik modeli;</p>
+<p>chkkconfig on/off</p>
+<p>Debian, Suse --&gt; apparmor
+RHEL --&gt; sellinux</p>
+<p>/etc/sysconfig/selinux: ayar dosyas&#x131; (SELINUX=0 yap&#x131;l&#x131;rsa devre d&#x131;&#x15F;&#x131;)</p>
+<p>Durum g&#xF6;runt&#xFC;leme;</p>
+<pre><code>$ getenforce
+</code></pre><p>&#xC7;al&#x131;&#x15F;an sistemde de&#x11F;i&#x15F;iklik;</p>
+<pre><code>$ setenforce [0-1]
+</code></pre><p>/var/log/audit/audit.log: log dosyalar&#x131;</p>
+<hr>
+<p>/proc dizini altinda processler vard&#x131;r. top, ps komutlar&#x131; bu dizinleri okuyarak gosterir.</p>
+<h4 id="komutlar">Komutlar</h4>
+<ul>
+<li><p><strong>jobs:</strong> &#xC7;al&#x131;&#x15F;an i&#x15F;lemlerin listesini verir.</p>
+</li>
+<li><p><strong>bg:</strong> Durdurulmu&#x15F; i&#x15F;lemleri arkaplanda devam ettirir.</p>
+<p>  bg [job]</p>
+</li>
+<li><p><strong>fg:</strong> Durdurulmu&#x15F; i&#x15F;lemi &#xF6;nplanda devam ettirir.</p>
+<p>  $ fg</p>
+</li>
+</ul>
+<p>En son durdurulmu&#x15F; ya da arka plana at&#x131;lm&#x131;&#x15F; i&#x15F;lemi devam ettirir.</p>
+<p><strong>uptime:</strong> Sistemin ne zamand&#x131;r a&#xE7;&#x131;k oldu&#x11F;unu ve son 1, 5 ve 15 dakikal&#x131;k <em>system load avarages</em> g&#xF6;sterir.</p>
+<ul>
+<li><p><strong>ps:</strong> Mevcut i&#x15F;lemlerin-s&#xFC;re&#xE7;lerin raporunu verir.</p>
+<p>  ps auxf</p>
+</li>
+</ul>
+<p>f: a&#x11F;a&#xE7; yap&#x131;s&#x131; </p>
+<hr>
+<p>Sisteme sorun durumunda kontrol komutlar&#x131;;</p>
+<ul>
+<li><p><strong>top:</strong> &#x130;&#x15F;lemci durumu
+(htop)</p>
+</li>
+<li><p><strong>free:</strong> Ram bilgileri</p>
+</li>
+<li><p><strong>df:</strong> Disk bilgileri</p>
+</li>
+<li><p><strong>du:</strong> Dosya baz&#x131;nda disk bilgisi</p>
+</li>
+</ul>
+<p>T&#xFC;m dizinlerin boyutlar&#x131;n&#x131; incelme;</p>
+<pre><code>$ du /*
+</code></pre><p><strong>Zombie S&#xFC;re&#xE7;:</strong> Parent s&#xFC;re&#xE7;lerin alt&#x131;nda child s&#xFC;re&#xE7;ler bulunur. Baz&#x131; durumlarda child processler &#xF6;l&#xFC;r ancak parent&apos;a bu bilgi bir &#x15F;ekilde gidemez. Bu child s&#xFC;rece zombie s&#xFC;re&#xE7; denir. Zombie s&#xFC;reci oldurmek i&#xE7;in parenti old&#xFC;rmek gerekir.</p>
+<pre><code>$ kill
+
+$ kill -9
+
+$ killall
+
+$ killall -u [user]
+</code></pre><p>Kullan&#x131;c&#x131; i&#x15F;lemleri +19&apos;dan -20&apos;ye (d&#xFC;&#x15F;&#xFC;k &#xF6;ncelik &gt; y&#xFC;ksek &#xF6;ncelik) kadar &#xF6;ncelik s&#x131;ralamas&#x131; yapabilir.</p>
+<ul>
+<li><p><strong>nice:</strong> yeni i&#x15F;lem ba&#x15F;latarak &#xF6;ncelik belirler.</p>
+<pre><code>$ nice --12 large-job
+</code></pre><p>--: ikinci -, eksiyi temsile eder. Pozitif de&#x11F;er i&#xE7;in + girilmez.</p>
+</li>
+<li><p><strong>renice:</strong> &#xC7;al&#x131;&#x15F;makta olan i&#x15F;lem i&#xE7;in &#xF6;ncelik belirler.</p>
+<pre><code>$ renice -3 -p 1134
+</code></pre><p>&#xD6;ncelik s&#x131;ras&#x131;n&#x131; -3 olarak de&#x11F;i&#x15F;tirir.</p>
+</li>
+</ul>
+<hr>
+<p><em>etc/init.d</em> dizininde servisler bulunur.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="06_paket_yonetim_sistemi.html" class="navigation navigation-prev " aria-label="Previous page: 06-Paket Yönetim Sistemi">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="08_sistem_kayitlari.html" class="navigation navigation-next " aria-label="Next page: 08-Sistem Kayıtları">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"07-Süreçler ve Servisler","level":"1.8","depth":1,"next":{"title":"08-Sistem Kayıtları","level":"1.9","depth":1,"path":"08_sistem_kayitlari.md","ref":"08_sistem_kayitlari.md","articles":[]},"previous":{"title":"06-Paket Yönetim Sistemi","level":"1.7","depth":1,"path":"06_paket_yonetim_sistemi.md","ref":"06_paket_yonetim_sistemi.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"07_surecler_ve_servisler.md","mtime":"2018-08-07T10:43:40.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-30T20:27:21.456Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
